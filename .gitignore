@@ -1,0 +1,12 @@
+.chainlit/
+*/__pycache__/
+03_retrieval/.chroma/
+03_retrieval/.data/
+03_retrieval/chainlit.md
+03_retrieval/sample.pdf
+03_retrieval/tmp/
+04_memory/.chainlit/
+04_memory/chainlit.md
+06_agent/result.txt
+06_agent/random.txt
+07_callback/chainlit.md

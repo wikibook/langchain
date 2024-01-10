@@ -16,7 +16,7 @@ chain = RetrievalQA.from_llm( #← RetrievalQA를 초기화
     return_source_documents=True, #← 정보를 가져온 원본 문서를 반환
 )
 
-result = chain("버번 위스키란?") #← RetrievalQA를 실행
+result = chain("소주란?") #← RetrievalQA를 실행
 
 source_documents = result["source_documents"] #← 정보 출처의 문서를 가져옴
 
